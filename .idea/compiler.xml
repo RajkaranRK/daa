@@ -7,12 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="daa" />
+        <module name="design-pattern" />
+        <module name="leetcode-programs" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="daa" options="-parameters" />
+      <module name="design-pattern" options="-parameters" />
+      <module name="leetcode-programs" options="-parameters" />
     </option>
   </component>
 </project>
